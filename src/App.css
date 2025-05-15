@@ -1,0 +1,33 @@
+/* App.css */
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.fullscreen-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa; /* Bootstrap's light gray */
+}
+
+.form-card {
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.form-card .card-header {
+  background-color: #6c757d; /* Bootstrap secondary */
+  color: white;
+  text-align: center;
+}
+
+.form-card .card-body {
+  background-color: white;
+  padding: 2rem;
+}
